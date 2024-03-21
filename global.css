@@ -1,0 +1,50 @@
+/* ----------------------------------------------------------------------------
+stile body 
+---------------------------------------------------------------------------- */
+body {
+    font-family: 'Satoshi', sans-serif !important;
+    /* ho dovuto mettere il padding 
+    perchè il colore di sfondo non prendeva 
+    tutta la dimensione del body */
+    /* padding-bottom: 10%; */
+    min-height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 100%);
+}
+
+/* ---------------------------------------------------------------------
+stile navbar 
+------------------------------------------------------------------------- */
+nav {background-color: black; color: #fff;}
+
+nav svg {color: green;}
+
+/* ----------------------------------------------------------------
+stile card 
+------------------------------------------------------------------- */
+.card-item {min-height: 450px;}
+
+.card {
+    border: transparent !important;
+    min-height: 450px;
+}
+.card-body {width: 100%;}
+
+.card:hover {
+    transition: all 1s cubic-bezier(.215, .61, .355, 1) !important;
+    transform: scale(1.1);
+}
+
+.single-card {
+    min-height: 200px;
+    width: 400px;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+/* -------------------------------------------------------------- 
+stile list group 
+------------------------------------------------------------- */
+.list-group {max-width: 700px; margin: auto;}
